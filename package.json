@@ -1,0 +1,23 @@
+{
+  "name": "talk_to_me_socket",
+  "version": "1.0.0",
+  "description": "Web socket for dictating script content",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "WebSocket"
+  ],
+  "author": "Nicholas Milligan",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "openai": "^4.2.0",
+    "openai-api": "^1.3.1",
+    "uuid": "^9.0.0",
+    "ws": "^8.13.0"
+  }
+}
